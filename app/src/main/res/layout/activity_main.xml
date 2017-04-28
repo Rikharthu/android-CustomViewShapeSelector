@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uberv.customviewshapeselector.MainActivity">
+
+    <!-- define our view in xml layout as well as al the required custom fields
+    described in res/values/attrs.xml
+    These attributes come frome app namespace (auto-resolve)
+    However it can be defined in the following format:
+    http://schemas.android.com/apk/res/<package_name> -->
+    <com.example.uberv.customviewshapeselector.ShapeSelectorView
+        android:id="@+id/shape_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:displayShapeName="true"
+        app:shapeColor="#7f0000"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"/>
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</android.support.constraint.ConstraintLayout>

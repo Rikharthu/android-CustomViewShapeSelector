@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShapeSelectorView">
+        <!-- declare our custom attribute names and their format -->
+        <attr name="shapeColor" format="color" />
+        <attr name="displayShapeName" format="boolean" />
+    </declare-styleable>
+</resources>
